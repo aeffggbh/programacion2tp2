@@ -25,8 +25,6 @@ public:
 
 	std::string toString();
 
-	
-
 	//friend no es realmente un metodo de la clase. 
 	//he's in the house but hes not the owner uwu rawr xd
 	friend Vector3 operator * (float scalar, Vector3 vector);

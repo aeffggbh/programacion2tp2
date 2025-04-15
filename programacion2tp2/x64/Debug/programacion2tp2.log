@@ -1,0 +1,26 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: El directorio intermedio (x64\Debug\) contiene archivos compartidos de otro proyecto (programacion2tp2.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  main.cpp
+  Vector3.cpp
+C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,3): error C2440: 'return': no se puede realizar la conversión de 'float' a 'Vector3'
+      C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,3):
+      'Vector3::Vector3':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+          C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\Vector3.h(35,1):
+          puede ser 'Vector3::Vector3(Vector3 &&)'
+              C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,3):
+              'Vector3::Vector3(Vector3 &&)': el argumento 1 no puede convertirse de 'float' a 'Vector3 &&'
+                  C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,15):
+                  Razón: no se puede realizar la conversión de 'float' a 'Vector3'
+                  C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,15):
+                  La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+          C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\Vector3.h(35,1):
+          o       'Vector3::Vector3(const Vector3 &)'
+              C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,3):
+              'Vector3::Vector3(const Vector3 &)': el argumento 1 no puede convertirse de 'float' a 'const Vector3 &'
+                  C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,15):
+                  Razón: no se puede realizar la conversión de 'float' a 'const Vector3'
+                  C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,15):
+                  La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+          C:\Users\Aula 2\Documents\GitHub\programacion2tp2\programacion2tp2\main.cpp(71,3):
+          al hacer coincidir la lista de argumentos '(float)'
+  
+  Generando código...
